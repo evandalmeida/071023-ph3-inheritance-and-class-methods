@@ -1,6 +1,6 @@
 class Mammal:
 
-    def __init__(self, name, rested=False):
+    def __init__(self, name, rested=False, is_alive=True):
         self.name = name
         self.rested = rested
 
